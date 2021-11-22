@@ -1,0 +1,68 @@
+  <!DOCTYPE html>
+  <html lang="ru">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link rel="stylesheet" href="css/normalize.css" />
+      <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+      <div class="screen amount-players">
+        <div class="amount-players__body">
+          <h1 class="amount-players__title">Выберите количество игроков:</h1>
+          <div class="amount-players__player-btns">
+            <button class="amount-players__players-btn btn" data-value="2">
+              2 игрока
+            </button>
+            <button class="amount-players__players-btn btn" data-value="3">
+              3 игрока
+            </button>
+            <button class="amount-players__players-btn btn" data-value="4">
+              4 игрока
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen select-name">
+        <div class="select-name__body">
+          <h1 class="select-name__title">Введите ваши имена:</h1>
+
+          <div class="select-name__box"></div>
+
+          <button class="select-name__btn btn">Продолжить</button>
+        </div>
+      </div>
+
+      <div class="screen board-screen">
+        <div class="board">
+          <div class="throw">
+            <div class="throw-wrapper throw-wrapper--1">
+              <div class="cube cube--1">
+                <div class="back side">2</div>
+                <div class="left side">6</div>
+                <div class="right side">1</div>
+                <div class="top side">3</div>
+                <div class="bottom side">4</div>
+                <div class="front side">5</div>
+              </div>
+            </div>
+            <div class="throw-wrapper throw-wrapper--2">
+              <div class="cube cube--2">
+                <div class="back side">2</div>
+                <div class="left side">6</div>
+                <div class="right side">1</div>
+                <div class="top side">3</div>
+                <div class="bottom side">4</div>
+                <div class="front side">5</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="js/main.js"></script>
+    </body>
+  </html>
